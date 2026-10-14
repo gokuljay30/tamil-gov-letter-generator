@@ -1,0 +1,30 @@
+{
+  "name": "tamil-gov-letter-generator",
+  "version": "1.0.0",
+  "description": "Open-source web app for drafting print-ready Tamil Nadu government letters with Tanglish transliteration and optional AI-assisted Tamil rewriting.",
+  "author": "Gokul Kumar Jayaram",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@piraisoodan/tanglish": "^0.1.2",
+    "@supabase/ssr": "^0.12.4",
+    "@supabase/supabase-js": "^2.112.3",
+    "next": "^15.5.0",
+    "openai": "^7.4.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.7.0"
+  }
+}
